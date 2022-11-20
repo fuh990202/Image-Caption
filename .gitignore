@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__
+data/input_data/*
+data/train2014/*
+data/val2014/*
+data/test2014/*
+*.json
+*.tar
+hugging_face/ENV
+hugging_face/Byte_tokenizer
+hugging_face/RobertaMLM
