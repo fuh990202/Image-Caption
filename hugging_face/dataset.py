@@ -6,7 +6,6 @@ MAX_LEN = 128
 
 class CustomDataset(Dataset):
     def __init__(self, df, tokenizer):
-        # or use the RobertaTokenizer from `transformers` directly.
 
         self.examples = []
         

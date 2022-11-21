@@ -5,5 +5,5 @@ fill_mask = pipeline(
     model= r'RobertaMLM',
     tokenizer= 'Byte_tokenizer'
 )
-
+ 
 print(fill_mask("a girl going into a <mask> building"))
