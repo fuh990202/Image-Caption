@@ -9,3 +9,8 @@ data/test2014/*
 hugging_face/ENV
 hugging_face/Byte_tokenizer
 hugging_face/RobertaMLM
+*.jpg
+hugging_face/VIT_Captioning
+hugging_face/content/*
+macml
+tensorflow*
