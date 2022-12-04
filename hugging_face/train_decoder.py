@@ -50,6 +50,7 @@ def train():
             type_vocab_size=1,
         )
     )
+    # model = RobertaForMaskedLM.from_pretrained('RobertaMLM')
 
     # Define the Data Collator
     data_collator = DataCollatorForLanguageModeling(
