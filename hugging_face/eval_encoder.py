@@ -8,7 +8,7 @@ import data
 MAX_LEN = 128 
 
 trainer = VisionEncoderDecoderModel.from_pretrained('Image_Cationing_VIT_Roberta_iter2')
-temp = data.test_df.sample(1).images.iloc[0]
+temp = data.test_df.sample(1, random_state=7).images.iloc[0]
 Image.open(temp).convert("RGB")
 
 tokenizer = RobertaTokenizerFast.from_pretrained('Byte_tokenizer', max_len=MAX_LEN)
